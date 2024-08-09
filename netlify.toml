@@ -1,4 +1,7 @@
+[functions]
+  directory = "netlify/functions"
+
 [[functions]]
-  path = "json-server"
+  path = "server"
   memory = 1024
   timeout = 10
