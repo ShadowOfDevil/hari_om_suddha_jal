@@ -1,8 +1,8 @@
-[functions]
-  directory = "netlify/functions"
-  external_node_modules = ["json-server"]
+[[functions]]
+directory = "netlify/functions"
+external_node_modules = ["json-server"]
 
-  # Optional: Adjust memory and timeout for the entire functions directory
-  node_bundler = "esbuild" # or "zisi" if you have issues with esbuild
-  memory = 1024
-  timeout = 10
+# Optional: Adjust memory and timeout for the entire functions directory
+node_bundler = "esbuild" # or "zisi" if you have issues with esbuild
+memory = 1024
+timeout = 10
