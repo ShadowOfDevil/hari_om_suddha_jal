@@ -1,0 +1,4 @@
+[[functions]]
+  path = "json-server"
+  memory = 1024
+  timeout = 10
